@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Список задач</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Список задач</h1>
+    <div class="task-form">
+      <input type="text" id="task-name" placeholder="Название задачи" />
+      <select id="task-status">
+        <option value="Ожидает">Ожидает</option>
+        <option value="В процессе">В процессе</option>
+        <option value="Завершено">Завершено</option>
+      </select>
+      <select id="task-priority">
+        <option value="Низкий">Низкий</option>
+        <option value="Средний">Средний</option>
+        <option value="Высокий">Высокий</option>
+      </select>
+      <button id="add-task">Добавить задачу</button>
+    </div>
+    <ul id="task-list"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>

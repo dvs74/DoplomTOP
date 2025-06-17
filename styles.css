@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.task-form {
+  margin-bottom: 20px;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
